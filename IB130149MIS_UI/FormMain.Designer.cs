@@ -36,9 +36,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 273);
             this.IsMdiContainer = true;
+            this.MinimumSize = new System.Drawing.Size(50, 50);
             this.Name = "FrmMain";
-            this.Opacity = 0.8D;
+            this.Opacity = 0.99D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Servis racunara";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
 
